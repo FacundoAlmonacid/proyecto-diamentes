@@ -359,7 +359,7 @@ p>a:visited {
 }
 
 
-@media(max-width:400px) {
+@media(max-width:576px) {
     .navegador {
 
         align-items: center;
