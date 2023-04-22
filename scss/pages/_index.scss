@@ -1,0 +1,69 @@
+.titulo-primario{
+    border-style:solid ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.tarjeta-titulo{
+    font-size:1.3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.26);
+}
+.tarjeta-boton{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-titulo1{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.993);
+
+}
+.tarjeta-texto1{
+    color: rgb(0, 0, 0);
+}
+
+.caracteres-index{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+
+
+@media(max-width:992px) {
+    
+
+
+.tarjetas2{
+    border-style:solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-width: 1px;
+    border-color: rgba(240, 248, 255, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.tarjetas2__items{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}

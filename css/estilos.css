@@ -13,6 +13,44 @@ li {
   list-style-type: none;
 }
 
+.titulos-bases {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: black;
+}
+
+.card {
+  margin: 10px;
+}
+
+.bg-1 {
+  background-image: url("../IMA-PROYECTO/fondoparamentesbrillantes2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-2 {
+  background-image: url(../IMA-PROYECTO/lingotespyo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.tarjeta-texto1 {
+  color: rgb(0, 0, 0);
+}
+
+.bg-footer {
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+}
+
 .encabezado {
   height: 40vh;
   width: 100%;
@@ -56,6 +94,98 @@ li {
   transition: all 600ms;
   font-size: 1.2rem;
   text-shadow: rgb(0, 208, 255) 1px 5px 20px;
+}
+
+.titulo-primario {
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.tarjeta-titulo {
+  font-size: 1.3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.26);
+}
+
+.tarjeta-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta-titulo1 {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.993);
+}
+
+.tarjeta-texto1 {
+  color: rgb(0, 0, 0);
+}
+
+.caracteres-index {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .tarjetas2 {
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-width: 1px;
+    border-color: rgba(240, 248, 255, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tarjetas2__items {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: black;
+}
+
+.footer__form {
+  color: white;
+  border-style: solid;
+  border-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__iconos-lista {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer__iconos {
+  height: 20vh;
+}
+
+.footer__form {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

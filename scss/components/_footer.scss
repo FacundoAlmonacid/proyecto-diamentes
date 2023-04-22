@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+.footer__form{
+    color: white;
+    border-style: solid;
+    border-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__iconos-lista{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer__iconos{
+    height: 20vh;
+}
+
+.footer__form{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    border-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
