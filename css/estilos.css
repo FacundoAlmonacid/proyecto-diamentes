@@ -25,6 +25,16 @@ li {
   margin: 10px;
 }
 
+.bg-titulos-page {
+  text-shadow: rgb(0, 208, 255) 1px 5px 20px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bg-1 {
   background-image: url("../IMA-PROYECTO/fondoparamentesbrillantes2.jpg");
   background-repeat: no-repeat;
@@ -96,6 +106,25 @@ li {
   text-shadow: rgb(0, 208, 255) 1px 5px 20px;
 }
 
+.nosotros {
+  background-color: black;
+}
+
+.nosotros__texto {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.nosotros__texto-flex {
+  align-items: center;
+  display: flex;
+}
+
 .titulo-primario {
   border-style: solid;
   color: rgb(255, 255, 255);
@@ -153,6 +182,7 @@ li {
   }
 }
 .footer {
+  padding: 10px;
   width: 100%;
   background-color: black;
 }
