@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,20 +21,6 @@
 </head>
 
 <body>
-
-    <header class="encabezado">
-
-        <div class="logo">
-            <img class="logo__img-tamaño" src="../IMA-PROYECTO/lotipodiamente.jpg" alt="">
-            <h1>
-                Joyeria Diamentes
-            </h1>
-        </div>
-
-
-    </header>
-
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="../index.html">
@@ -73,59 +59,303 @@
 
     <main>
 
-        <h2 class=" titulosprimarios decoraciones2 ">
-            Talleres y Cursos
-        </h2>
+        <h1 class="bg-titulos-page">
+            TALLERES Y CURSOS
+        </h1>
 
-        <div class="cursos">
-            <article class="cursos__articulos">
-                <h3>
-                    Cursos de joyería cotidiana
+        <div class="container-fluid cursos ">
+
+            <div class="row cursos">
+
+                <div class="col-xs-12 col-md-6 col-xl-3">
+                    <div class="card tarjeta tarjetas__estilo1">
+                        <div class="card-body tarjeta__items">
+
+                            <h2 class="card-title tarjeta__titulo">
+                                CURSO DE CERA
+                            </h2>
+
+
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cursodecera" aria-expanded="false" aria-controls="collapseExample">
+                                Mas info..
+                            </button>
+
+
+                            <div class="collapse" id="cursodecera">
+                                <div class="card card-body tarjeta__texto">
+                                    La técnica de la cera perdida es un procedimiento escultórico, que permite obtener
+                                    figuras de metal por medio de un molde
+                                    <a href="#cursodecera-contenidos">Leer mas..</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-xl-3">
+                    <div class="card  tarjeta tarjetas__estilo1 ">
+                        <div class="card-body tarjeta__items">
+
+                            <h2 class="card-title tarjeta__titulo">
+                                CURSO JOYAS DE ARENA
+                            </h2>
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cursojoyadearena" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Mas info..
+                            </button>
+
+
+                            <div class="collapse" id="cursojoyadearena">
+                                <div class="card card-body tarjeta__texto">
+                                    A partir de la técnica de fundición directa, el original queda sustituido por el
+                                    metal sin moldes
+                                </div>
+                                <a href="#joyasdearena-contenido"> leer mas..</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-xl-3">
+                    <div class="card tarjeta tarjetas__estilo1">
+                        <div class="card-body tarjeta__items">
+                            <h2 class="card-title tarjeta__titulo">
+                                CURSO DE GEMOLOGIA
+                            </h2>
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#gemologia" aria-expanded="false" aria-controls="collapseExample">
+                                Mas info..
+                            </button>
+
+
+                            <div class="collapse" id="gemologia">
+                                <div class="card card-body tarjeta__texto">
+
+                                    Este curso reune los conocimientos más importantes sobre las gemas más
+                                    representativas.
+
+
+                                </div>
+                                <a href="#gemologia-contenido">leer mas..</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-xl-3">
+                    <div class="card tarjeta tarjetas__estilo1">
+                        <div class="card-body tarjeta__items">
+                            <h2 class="card-title tarjeta__titulo">
+                                CURSO FELIGRANA
+                            </h2>
+
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#feligrana" aria-expanded="false" aria-controls="collapseExample">
+                                Mas info..
+                            </button>
+
+
+                            <div class="collapse" id="feligrana">
+                                <div class="card card-body tarjeta__texto">
+                                    Este es un curso aprenderás a hacer la famosa filigrana del maestro
+
+                                    <a href="#feligrana-contenido"> leer mas..</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="container">
+            <div class="collapse" id="cursodecera">
+                <h3 id="cursodecera-contenidos">
+                    CURSOS DE CERA PERDIDA
                 </h3>
-                <img class="cursos__img" src="../IMA-PROYECTO/cursosCotidiana01.jpg" alt="">
 
+                <P><strong> ¿A quién va dirigido?</strong></P>
+                Los cursos están abiertos a cualquier persona, con o sin conocimientos previos de joyería, que esté
+                interesada en aprender, ya sea a nivel profesional, o por afición. También para aquellos alumnos que
+                empiecen de cero y quieran iniciarse en el mundo de la joyería, tocando las distintas técnicas por cada
+                curso que realice, así como alumnos autodidactas o provenientes de otras escuelas que quieran mejorar la
+                técnica y sus conocimientos de forma más personalizada.
+                <hr>
+                <p><strong> ¿En qué consiste?</strong></p>
+                La técnica de la cera perdida es un procedimiento escultórico, que permite obtener figuras de metal por
+                medio de un molde, el cual que se elabora a través del modelado en cera de diversos tipos.
 
-                <video class="contenido-oculto" src="../videos/Jewlry_Making__Joining_a_Ring_2.mov" muted autoplay loop>
-                </video>
+                Esta técnica fue desarrollada en la Antigüedad de manera independiente y paralela por los sumerios,
+                indios, chinos, mesoamericanos e incas, la cual fue adoptada por civilizaciones contemporánea.
+                <hr>
+                <p><strong> Objetivos & Contenido</strong></p>
+                Valoramos que el alumno aprenda las diferentes técnicas de manipulación de la cera aplicadas a la
+                joyería, al igual que las distintas ceras de modelar y su posterior paso al metal.
 
-            </article>
+                Las técnicas básicas del modelado en cera como el goteo, calado, talla, texturas, taco, etc. ,
+                permitirán al alumno darle un toque mas creativo a sus joyas.
 
-            <div class="cursos__articulos">
+                No hay un temario minucioso a seguir, el alumno realiza sus piezas y nosotros procuramos que aprenda
+                bien todas las técnicas siguiendo las pautas pertinentes.
 
-                <h3>
-                    Cursos de taller de grabado
-                </h3>
-
-                <img src="../IMA-PROYECTO/cursosGrabado01.jpg" alt="curso grabador a buril en metales">
-
-                <iframe class="contenido-oculto" width="560" height="315"
-                    src="https://www.youtube.com/embed/tHvKRSFsRrw" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                Durante las primeras clases, el alumno se va decantando hacia la técnica que más le gusta ,escogiendo, y
+                nosotros le vamos guiando y aconsejando lo mejor posible, enseñándole que pautas debe seguir y como
+                llegar a dominar cada una de ellas.
+                <hr>
+                La escuela dispone de todo tipo de herramientas para realizar todo tipo de ejercicios, pero aconsejamos
+                que cada alumno tenga las suyas propias porque a la hora de trabajar es más personalizado. Tanto los
+                alumnos, como aquellos profesionales del sector; en la escuela pueden comprar toda clase de herramientas
+                y material que necesiten para uso en la escuela, como para su propio taller.
 
             </div>
 
-            <div class="cursos__articulos">
-                <h3>
-                    Cursos de modelaje en cera
+        </div>
+
+        <div class="container">
+            <div class="collapse" id="cursojoyadearena">
+                <h3 id="joyasdearena-contenido">
+                    CURSO JOYAS DE ARENA
                 </h3>
 
-                <img src="../IMA-PROYECTO/cursoscera01.jpg"
-                    alt="curso de manejo en practicas y modelaje de cera para joyería">
-                <video class="contenido-oculto" src="../videos/pexels-tima-miroshnichenko-6262806-3840x2160-25fps.mp4"
-                    muted autoplay loop>
-                </video>
+                <p> <strong>¿A quién va dirigido?</strong></p>
+                Los cursos monográficos están abiertos a cualquier persona, con o sin conocimientos de joyería, que esté
+                interesada en aprender, ya sea a nivel profesional, o por afición. También para aquellos alumnos que
+                empiecen de cero y quieran iniciarse en el mundo de la joyería, tocando las distintas técnicas por cada
+                curso que realice, así como alumnos autodidactas o provenientes de otras escuelas que quieran mejorar la
+                técnica y sus conocimientos de forma más personalizada.
+                <hr>
+                <p><strong> ¿En qué consiste?</strong></p>
+                Las Joyas de arena destacan por su textura que recuerda a la arena de playa.
+                También sorprenden los colores del oxidado y la pintura que recubre unas formas esencialmente orgánicas.
+
+                A partir de la técnica de fundición directa, el original queda sustituido por el metal sin moldes ni
+                intermediarios, lo que proporciona una gran definición de las texturas y los detalles, que quedan
+                impresos directamente en el metal
+                <hr>
+                <p> <strong> Objetivos & Contenido</strong></p>
+                Cada alumno será capaz de crear su propia y original joya de arena.
+
+                No hay un temario minucioso a seguir, el alumno realiza sus piezas y nosotros procuramos que aprenda
+                bien todas las técnicas siguiendo las pautas pertinentes.
+
+                Durante las primeras clases, el alumno se va decantando hacia la técnica que más le gusta y va
+                escogiendo, y nosotros le vamos guiando y aconsejando lo mejor posible, enseñándole que pautas debe
+                seguir y como llegar a dominar cada una de ellas.
+                <hr>
+                La escuela dispone de todo tipo de herramientas para realizar todo tipo de ejercicios, pero aconsejamos
+                que cada alumno tenga las suyas propias porque a la hora de trabajar es más personalizado. Tanto los
+                alumnos, como aquellos profesionales del sector; en la escuela pueden comprar toda clase de herramientas
+                y material que necesiten para uso en la escuela, como para su propio taller.
+
+
+
+
 
             </div>
 
-            <div class="cursos__articulos">
-                <h3>
-                    Cursos de historia de la moda
+        </div>
+
+
+
+        <div class="container">
+            <div class="collapse" id="gemologia">
+                <h3 id="gemologia-contenido">
+                    CURSO DE GEMOLOGIA
                 </h3>
 
-                <img src="../IMA-PROYECTO/cursoshistoria01.jpg"
-                    alt="curso de la historia de la joyeria y sus avances con la tecnologia">
-                <video class="contenido-oculto" src="../videos/video4.mp4" muted autoplay loop></video>
+                <P><STRong> A quién va dirigido</STRong></P>
+                Los cursos monográficos están abiertos a cualquier persona, con o sin conocimientos de joyería, que esté
+                interesada en aprender, ya sea a nivel profesional, o por afición. También para aquellos alumnos que
+                empiecen de cero y quieran iniciarse en el mundo de la joyería, tocando las distintas técnicas por cada
+                curso que realice, así como alumnos autodidactas o provenientes de otras escuelas que quieran mejorar la
+                técnica y sus conocimientos de forma más personalizada.
+                <hr>
+                <p>´<strong> En qué consiste:</p></strong>
+                Este curso reune los conocimientos más importantes sobre las gemas más representativas.
+                <hr>
+                <p><strong> Objetivos & Contenido:</strong></p>
+                Aprenderás a identificarlas por su color, transparecia, brillo dispersión, fluorescencia, etc. Y a saber
+                cuales son los mejores metales con las que lograr un buen diseño.
+
+                No hay un temario minucioso a seguir, el alumno realiza sus piezas y nosotros procuramos que aprenda
+                bien todas las técnicas siguiendo las pautas pertinentes.
+
+                Durante las primeras clases, el alumno se va decantando hacia la técnica que más le gusta y va
+                escogiendo, y nosotros le vamos guiando y aconsejando lo mejor posible, enseñándole que pautas debe
+                seguir y como llegar a dominar cada una de ellas.
+                <hr>
+                La escuela dispone de todo tipo de herramientas para realizar todo tipo de ejercicios, pero aconsejamos
+                que cada alumno tenga las suyas propias porque a la hora de trabajar es más personalizado. Tanto los
+                alumnos, como aquellos profesionales del sector; en la escuela pueden comprar toda clase de herramientas
+                y material que necesiten para uso en la escuela, como para su propio taller.
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="container">
+            <div class="collapse" id="feligrana">
+
+                <h3 id="feligrana-contenido">
+                    CURSO DE FELIGRANA
+                </h3>
+                <P>
+                <P> <strong> A quién va dirigido:</strong></P>
+                Los cursos monográficos están abiertos a cualquier persona, con o sin conocimientos de joyería, que
+                esté interesada en aprender, ya sea a nivel profesional, o por afición. También para aquellos
+                alumnos que empiecen de cero y quieran iniciarse en el mundo de la joyería, tocando las distintas
+                técnicas por cada curso que realice, así como alumnos autodidactas o provenientes de otras escuelas
+                que quieran mejorar la técnica y sus conocimientos de forma más personalizada.
+                <hr>
+                <P><strong> En qué consiste:</strong></P>
+                Este es un curso aprenderás a hacer la famosa filigrana del maestro, que se realiza con técnicas
+                antiguas y totalmente a mano. Cada elemento de la filigrana está soldado a los demás a mano en sus
+                puntos de contacto, lo que permite obtener una forma muy delicada, única y orgánica.
+                <hr>
+                <p><strong> Objetivos & Contenidos:</strong></p>
+                Cada alumno obtendrá las habilidades para la creación de un diseño en filigrana, totalmente hecho a
+                mano.
+
+                No hay un temario minucioso a seguir, el alumno realiza sus piezas y nosotros procuramos que aprenda
+                bien todas las técnicas siguiendo las pautas pertinentes.
+
+                Durante las primeras clases, el alumno se va decantando hacia la técnica que más le gusta y va
+                escogiendo, y nosotros le vamos guiando y aconsejando lo mejor posible, enseñándole que pautas debe
+                seguir y como llegar a dominar cada una de ellas.
+
+                La escuela dispone de todo tipo de herramientas para realizar todo tipo de ejercicios, pero
+                aconsejamos que cada alumno tenga las suyas propias porque a la hora de trabajar es más
+                personalizado. Tanto los alumnos, como aquellos profesionales del sector; en la escuela pueden
+                comprar toda clase de herramientas y material que necesiten para uso en la escuela, como para su
+                propio taller.
+                </P>
+
 
             </div>
 
@@ -134,59 +364,49 @@
     </main>
 
 
-
-    <footer class="footer">
-
-
-        <div class="footer__img">
-            <img class="logo__img-tamaño " src="../IMA-PROYECTO/lotipodiamente.jpg" alt="">
-        </div>
+    <footer class="container-fluid footer">
 
 
-        <div class="footer__list">
-            <ul class="footer__list-item">
-                <li>Ayuda</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-                <li>Cambios y devoluciones</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
+        <div class="footer__form col-12">
+            <div>
+                <img class="logo__img-tamaño" src="../IMA-PROYECTO/lotipodiamente.jpg" alt="">
+                <p>SUSCRIBITE A NUESTRA PAGINA</p>
+            </div>
 
-                <li>Preguntas frecuentes</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con
+                        nadie más.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
 
-                <li>Métodos de envíos</li>
-
-            </ul>
-
-        </div>
-
-        <div class="footer__list">
-            <ul>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-
-                <li>Teléfonos:2613313885</li>
-                <a href="./talleresycursos.html">
-                    <img src="../IMA-PROYECTO/iconoflechaarriba1.png" SUBIR>
-                </a>
-                <li>SUBIR</li>
-
-                <li><a href="https://goo.gl/maps/xzCr7KQKgqCy5nE76"></a></li>
-            </ul>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
 
 
 
-        <div>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53609.02109427781!2d-68.89353867505086!3d-32.88325824035863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1678746237649!5m2!1ses!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container-fluid footer__iconos col-12">
+            <div class="footer__iconos-lista ">
+
+                <li> <img src="../IMA-PROYECTO/iconofacebook.png" alt=""></li>
+
+                <li> <img src="../IMA-PROYECTO/iconoinstagram.png" alt=""></li>
+
+                <li> <img src="../IMA-PROYECTO/iconotwiter.png" alt=""></li>
+
+                <li> <img src="../IMA-PROYECTO/iconowhatsap.png" alt=""></li>
+            </div>
+
+
 
         </div>
-
-
-
     </footer>
 
 
@@ -194,9 +414,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -55,9 +55,6 @@ li {
 
 }
 
-.tarjeta-texto1 {
-    color: rgb(0, 0, 0);
-}
 
 
 
@@ -69,4 +66,19 @@ li {
     width: 100%;
     height: 50vh;
 }
+
+
+
+.tarjetas__estilo1{
+    box-shadow:rgba(0, 0, 0, 0.527)  0px 8px 8px 5px ; 
+}
+
+.tarjeta__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 
