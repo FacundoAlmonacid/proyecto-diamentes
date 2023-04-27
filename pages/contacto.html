@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,199 +18,146 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Diplomata+SC&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <meta name="description" content="registration para aprovechar al máximo todas nuestras ofertas y descuentos por temporada ">
+
+    <title>Contacto|regístrate, nuevas ofertas de nuestros productos y cursos</title>
 </head>
 
 
 <body>
 
-    
-    <header class="encabezado">
 
-        <div class="logo">
-            <img class="logo__img-tamaño" src="../IMA-PROYECTO/lotipodiamente.jpg" alt="">
-            <h1>
-                Joyeria Diamentes
-            </h1>
-        </div>
+    <header>
 
 
-    </header>
 
 
-<main>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../IMA-PROYECTO/lotipodiamente.jpg" alt="" width="40" height="34"
-                    class="d-inline-block align-text-top">
-                Diamentes
-            </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./piezasunicas.html">Piezas Únicas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./talleresycursos.html">Talleres y Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../IMA-PROYECTO/lotipodiamente.jpg" alt="" width="40" height="34"
+                        class="d-inline-block align-text-top">
+                    Diamentes
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./piezasunicas.html">Piezas Únicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./talleresycursos.html">Talleres y Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
-
-
-
-</main>
-
+        </nav>
+    </header>
 
     <main>
 
-        <h2 class="titulosprimarios decoraciones2">
-            Contacto
-        </h2>
+        <div class="container-fluid  bg-contacto contacto">
+            <div class="container formulario">
 
-        <section class="formulario">
-            <p class="formulario__textoprincipal">
-                COMPLETA CON TUS DATOS
-            </p>
+                <main>
+                    <form class="formulario__items">
+                        <h1>SUSCRIBETE A NUESTRA PAGINA</h1>
+                        <p>Complete el siguiente formulario para obtener acceso instantáneo ahora</p>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie
+                                más.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
 
+                    <div class="formulario__iconos">
+                        <p>
+                            NO TE OLVIDES DE SEGUIRNOS
+                        </p>
+                        <ul class="formulario__lista">
 
-            <div class="formulario__casilleros">
-                <label for="nombre y apellido">Nombre y apellido</label>
-                <input id="nombre y apellido" type="text">
-            </div>
+                            <li> <img src="../IMA-PROYECTO/iconofacebook.png" alt=""></li>
 
-            <div class="formulario__casilleros">
-                <label for="email">Email</label>
-                <input id="email" type="email">
-            </div>
+                            <li> <img src="../IMA-PROYECTO/iconoinstagram.png" alt=""></li>
 
-            <div class="formulario__casilleros" >
-                <label for="asunto del mensaje">Asunto del mensaje</label>
-                <select name="" id="asunto del mensaje">
+                            <li> <img src="../IMA-PROYECTO/iconotwiter.png" alt=""></li>
 
-                    <option value="mensaje">mensaje</option>
-                    <option value="quejas">quejas</option>
-                    <option value="opinion">opinion</option>
-
-                </select>
-
-            </div>
-
-
-            <div class="formulario__casilleros">
-                <label for="comentarios">comentarios</label>
-                <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
-            </div>
-
-
-            <div>
-                <input type="submit">
-                <input type="reset">
-            </div>
-
-            <div>
-
-                <span> selecciona tu genero</span>
-
-                <label for="genero hombre">hombre</label>
-                <input id="genero hombre" type="radio" name="radio" value="hombre">
-
-                <label for="genero mujer">mujer</label>
-                <input id="genero mujer" type="radio" name="radio" value="mujer">
-
-                <label for="genero no binario">no binario</label>
-                <input id="genero no binario" type="radio" name="radio" value="no binario">
-
+                            <li> <img src="../IMA-PROYECTO/iconowhatsap.png" alt=""></li>
+                        </ul>
+                    </div>
 
             </div>
 
 
-
-
-
-            </form>
-
-        </section>
-
-
-
-
-
+        </div>
 
 
     </main>
 
-    <footer class="footer">
-
-
-        <div class="footer__img">
-            <img class="logo__img-tamaño " src="../IMA-PROYECTO/lotipodiamente.jpg" alt="">
-        </div>
-
-
-        <div class="footer__list">
-            <ul class="footer__list-item">
-                <li>Ayuda</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-                <li>Cambios y devoluciones</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-
-                <li>Preguntas frecuentes</li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-
-                <li>Métodos de envíos</li>
-
-            </ul>
-
-        </div>
-
-        <div class="footer__list">
-            <ul>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <img src="../IMA-PROYECTO/icononavegador1.png" alt="">
-
-                <li>Teléfonos:2613313885</li>
-                <a href="./piezasunicas.html">
-                    <img  src="../IMA-PROYECTO/iconoflechaarriba1.png" SUBIR>
-                </a>
-                <li>SUBIR</li>
-
-                <li><a href="https://goo.gl/maps/xzCr7KQKgqCy5nE76"></a></li>
-            </ul>
-        </div>
 
 
 
-        <div>
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53609.02109427781!2d-68.89353867505086!3d-32.88325824035863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1678746237649!5m2!1ses!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
 
 
 
-    </footer>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

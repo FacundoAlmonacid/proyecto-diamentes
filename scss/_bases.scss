@@ -35,6 +35,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10vh;
+
 
 }
 
@@ -54,19 +56,27 @@ li {
     width: 100%;
 
 }
-
-
-
-
-
-
-
 .bg-footer {
     background-color: black;
     width: 100%;
     height: 50vh;
 }
 
+.bg-contacto{
+    background-image: url("../IMA-PROYECTO/fondoparacontacto.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titulo-primario {
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.226);
+}
 
 
 .tarjetas__estilo1{

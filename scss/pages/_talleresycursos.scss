@@ -3,12 +3,16 @@
     height: auto;
     background-color: rgb(255, 255, 255);
 }
+ .tarjetacurso{
 
-.tarjeta__titulo{
-    font-size: 1.2rem;
+&__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+    &__titulo{
+        font-size: 1.3rem;
+    }
 
-.tarjeta{
-    
-}
-
+ }

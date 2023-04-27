@@ -1,32 +1,42 @@
-.titulo-primario{
-    border-style:solid ;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.226);
+.tarjeta {
+    background-color: rgba(0, 0, 0, 0.11);
+    box-shadow: rgba(0, 0, 0, 0.301) 10px 10px 10px;
+
+
+    &__titulo {
+        font-size: 1.3rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 255, 0.26);
+    }
+
+    &__texto {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    &__boton {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.tarjeta-titulo{
-    font-size:1.3rem;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 255, 0.26);
-}
-.tarjeta-boton{
-    display: flex;
-    justify-content: center;
+
+.tarjeta2 {
+    &__titulo2 {
+        display: flex;
+        justify-content: center;
+        color: rgba(0, 0, 0, 0.993);
+
+    }
+
+    &__texto2 {
+        color: rgb(0, 0, 0);
+    }
 }
 
-.tarjeta-titulo1{
-    display: flex;
-    justify-content: center;
-    color: rgba(0, 0, 0, 0.993);
 
-}
-.tarjeta-texto1{
-    color: rgb(0, 0, 0);
-}
-
-.caracteres-index{
+.caracteres-index {
     display: flex;
     justify-content: space-around;
     background-color: black;
@@ -41,29 +51,33 @@
 
 
 @media(max-width:992px) {
-    
 
 
-.tarjetas2{
-    border-style:solid;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-width: 1px;
-    border-color: rgba(240, 248, 255, 0.315);
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
-.tarjetas2__items{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-}
+    .tarjeta3 {
+        border-style: solid;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-width: 1px;
+        border-color: rgba(240, 248, 255, 0.315);
+        display: flex;
+        justify-content: space-evenly;
+
+
+
+        &__items {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    }
 
 
 }

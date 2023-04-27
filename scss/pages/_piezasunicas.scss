@@ -16,11 +16,25 @@
 margin: 10px;
 }
 
-
+.tarjeta{
+    height: 100%;
+}
    
 
 
 
+.tarjetas__estilo1{
+    box-shadow:rgba(0, 0, 0, 0.527)  0px 8px 8px 5px ; 
+}
+
+.tarjeta__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
 
 .tarjeta__titulo-principal{
     color: white;
