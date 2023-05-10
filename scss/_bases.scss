@@ -14,19 +14,8 @@ li {
 
 }
 
-.titulos-bases {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-    background-color: black;
-}
 
-
-.card {
-    margin: 10px;
-}
-
+ /* bases para secciones de titulos */
 .bg-titulos-page{
     text-shadow: rgb(0, 208, 255) 1px 5px 20px;
     width: 100%;
@@ -40,55 +29,39 @@ li {
 
 }
 
-.bg-1 {
-    background-image: url("../IMA-PROYECTO/fondoparamentesbrillantes2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
+ /* tarjeta para articulos */
 
-.bg-2 {
-    background-image: url(../IMA-PROYECTO/lingotespyo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+.tarjeta {
+    margin: 10px;
+    width: 300px;
 
-}
-.bg-footer {
-    background-color: black;
-    width: 100%;
-    height: 50vh;
-}
-
-.bg-contacto{
-    background-image: url("../IMA-PROYECTO/fondoparacontacto.jpg");
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.titulo-primario {
-    border-style: solid;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.226);
-}
-
-
-.tarjetas__estilo1{
-    box-shadow:rgba(0, 0, 0, 0.527)  0px 8px 8px 5px ; 
-}
-
-.tarjeta__items{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 10px 5px 13px -2px rgba(0, 0, 0, 0.4);
+
+    &__img {
+        width: 100%;
+        height: 50%;
+    }
+
+    &__titulo {
+        text-align: center;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+
+    &__texto-descripcion {
+        height: 30%;
+    }
+
+    &__lista {
+        background: linear-gradient(50deg, rgba(120, 116, 56, 1) 5%, rgba(255, 255, 255, 1) 6%, rgba(255, 255, 255, 1) 92%, rgba(120, 116, 56, 1) 93%);
+        border-style: solid;
+    }
+
 }
+
+
 
 

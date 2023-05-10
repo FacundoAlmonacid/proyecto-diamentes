@@ -10,6 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(50deg, rgba(120,116,56,1) 5%, rgba(255,255,255,1) 6%, rgba(255,255,255,1) 92%, rgba(120,116,56,1) 93%);
+
 }
     &__titulo{
         font-size: 1.3rem;

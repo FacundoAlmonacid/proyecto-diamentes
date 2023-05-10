@@ -1,44 +1,73 @@
 .footer {
     margin-top: 30px;
-    padding: 10px;
-    width: 100%;
     background-color: black;
 
-
-
-
-
-    &__form {
-        color: white;
-        border-style: solid;
-        border-color: aqua;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    &__iconos-lista {
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
     &__iconos {
-        height: 20vh;
+        display: flex;
+        justify-content: center;
+
+        & a>img:hover {
+            width: 70px;
+        }
+
     }
 
-    &__form {
-        border-style: solid;
-        border-width: 1px;
-        padding: 10px;
-        border-color: aqua;
+
+
+    .footer__suscripcion {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        text-align: center;
+        gap: 5px;
 
+        &>p {
+
+            text-align: center;
+            text-decoration: overline;
+            color: white;
+        }
+
+        &>img {
+            width: 200px;
+            border-style: solid;
+            border-radius: 100px;
+            border-color: #1F87FF;
+        }
+
+        &>a {
+            box-shadow: inset 4px 4px 15px 0px #1F87FF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-radius: 50px;
+            padding: 5px;
+
+
+        }
+
+        &>a:hover {
+            transition: all 1s;
+            font-size: 1.3rem;
+
+        }
+
+    }
+
+
+    &__listas {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+
+
+
+        &>ul {
+            width: 250px;
+            color: white;
+            padding: 10px;
+            border-style: double;
+            border-color: #1f88ff5b;
+        }
     }
 
 }
