@@ -1,4 +1,5 @@
 .footer {
+    font-size: 0.9rem;
     margin-top: 30px;
     background-color: black;
 
@@ -18,6 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         gap: 5px;
 
         &>p {
@@ -34,7 +36,16 @@
             border-color: #1F87FF;
         }
 
-       
+        &>a {
+            width: fit-content;
+            box-shadow: inset 4px 4px 15px 0px #1F87FF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-radius: 50px;
+            padding: 5px;
+
+
+        }
+
     
     }
 

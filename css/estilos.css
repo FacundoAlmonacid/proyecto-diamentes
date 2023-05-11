@@ -169,22 +169,34 @@ li {
 }
 
 .nosotros {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: white;
   background-color: black;
 }
 .nosotros__texto {
-  color: white;
   padding: 10px;
-  margin: 10px;
-  text-align: justify;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 2px;
-  font-size: 1rem;
-}
-.nosotros__texto-flex {
-  align-items: center;
   display: flex;
+  align-items: center;
+}
+.nosotros__texto > img {
+  width: 400px;
+}
+.nosotros__texto > p {
+  letter-spacing: 1px;
+  margin: 20px;
 }
 
+@media (max-width: 900px) {
+  .nosotros__texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros__texto > img {
+    width: 70%;
+  }
+}
 .bg-contacto {
   background-image: url("../IMA-PROYECTO/fondoparacontacto.jpg");
   width: 100%;
@@ -349,6 +361,7 @@ li {
   }
 }
 .footer {
+  font-size: 0.9rem;
   margin-top: 30px;
   background-color: black;
 }
@@ -363,6 +376,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 5px;
 }
 .footer .footer__suscripcion > p {
@@ -375,6 +389,13 @@ li {
   border-style: solid;
   border-radius: 100px;
   border-color: #1F87FF;
+}
+.footer .footer__suscripcion > a {
+  width: fit-content;
+  box-shadow: inset 4px 4px 15px 0px #1F87FF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-radius: 50px;
+  padding: 5px;
 }
 .footer__listas {
   margin-top: 30px;

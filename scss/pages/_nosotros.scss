@@ -1,27 +1,42 @@
 .nosotros {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: white;
     background-color: black;
 
 
 
     &__texto {
-        color: white;
         padding: 10px;
-        margin: 10px;
-        text-align: justify
-        ;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        letter-spacing: 2px;
-
-        font-size: 1rem;
-
-
-    }
-
-    &__texto-flex {
-
-        align-items: center;
         display: flex;
+        align-items: center;
 
     }
+
+
+    &__texto>img {
+        width: 400px;
+    }
+
+
+    &__texto>p {
+
+        letter-spacing: 1px;
+        margin: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .nosotros__texto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        &>img {
+            width: 70%;
+        }
+
+    }
+
 
 }
